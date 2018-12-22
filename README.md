@@ -127,4 +127,30 @@
  An index.yaml file was created, so we can now use the docs folder as an Helm repository after committing those files to the repo.
 
 **9. Use Github as Helm Repository**
- - `helm repo add helm-charts https://pilillo.github.com/helm-charts`
+ - `helm repo add <name> <URL>`
+	```$ helm repo add helm-charts https://pilillo.github.com/helm-charts
+	"helm-charts" has been added to your repositories
+	```
+ - `helm repo list`
+	```$ helm repo list
+	NAME       	URL
+	stable     	https://kubernetes-charts.storage.googleapis.com
+	local      	http://127.0.0.1:8879/charts
+	helm-charts	https://pilillo.github.com/helm-charts
+	```
+ - `helm repo update`
+	```$ helm repo update
+	Hang tight while we grab the latest from your chart repositories...
+	...Skip local chart repository
+	...Successfully got an update from the "helm-charts" chart repository
+	...Successfully got an update from the "stable" chart repository
+	Update Complete. ⎈ Happy Helming!⎈
+	```
+ - `helm search <name>`
+	```$ helm search mlflow
+	NAME              	CHART VERSION	APP VERSION	DESCRIPTION
+	helm-charts/mlflow	0.1.0        	1.0        	A Helm chart for MLflow
+	local/mlflow      	0.1.0        	1.0        	A Helm chart for MLflow
+	```
+
+Yeeeey, we can now install/delete MLflow directly from helm!
