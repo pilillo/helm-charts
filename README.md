@@ -2,10 +2,10 @@
 
 1. Preparation of Docker Image:  
  a) push to repo
-  - https://stackoverflow.com/questions/40600419/why-am-i-getting-an-errimagepull-error-in-this-kubernetes-deployment
-  - https://docs.bitnami.com/kubernetes/how-to/deploy-go-application-kubernetes-helm/  
+   - https://stackoverflow.com/questions/40600419/why-am-i-getting-an-errimagepull-error-in-this-kubernetes-deployment
+   - https://docs.bitnami.com/kubernetes/how-to/deploy-go-application-kubernetes-helm/  
  b) use public repo and existing image
-  - "danielvdende/docker-mlflow"
+   - "danielvdende/docker-mlflow"
 
 2. Cluster initialization:
  - `kubectl create namespace test`
