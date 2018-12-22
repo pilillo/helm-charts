@@ -109,6 +109,8 @@
 	```
 
  - `kubectl port-forward --namespace=test deployment/mlflow-test 5000:5000`
+  ![mlflow-ui](https://raw.githubusercontent.com/pilillo/helm-charts/master/docs/mlflow_ui.png "MLflow UI")
+
 
 **7. Cleanup:**
  - `helm ls`
@@ -125,6 +127,8 @@
  index.html  index.yaml  mlflow-0.1.0.tgz
  ```
  An index.yaml file was created, so we can now use the docs folder as an Helm repository after committing those files to the repo.
+ - Set the doc folder as the one to use to store the documentation on Github
+  ![github-doc](https://raw.githubusercontent.com/pilillo/helm-charts/master/docs/set_doc.png "Github doc folder")
 
 **9. Use Github as Helm Repository**
  - `helm repo add <name> <URL>`
