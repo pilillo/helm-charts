@@ -31,8 +31,8 @@ b) use public repo and existing image i.e. "danielvdende/docker-mlflow"
  - `kubectl delete namespace test`
 
 8. Package:
- - `helm package mlflow`
-  Successfully packaged chart and saved it to: /home/pilillo/Documenti/helm-charts/mlflow-0.1.0.tgz
+ - `helm package mlflow`  
+ Successfully packaged chart and saved it to: /home/pilillo/Documenti/helm-charts/mlflow-0.1.0.tgz
  - `mv mlflow-0.1.0.tgz docs`
  - `helm repo index docs --url https://pilillo.github.com/helm-charts`
   ```$ ls docs/
