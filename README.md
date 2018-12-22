@@ -106,7 +106,8 @@ b) use public repo and existing image i.e. "danielvdende/docker-mlflow"
 	  Normal  Pulled                 1m    kubelet, minikube  Container image "danielvdende/docker-mlflow:latest" already present on machine
 	  Normal  Created                1m    kubelet, minikube  Created container
 	  Normal  Started                1m    kubelet, minikube  Started container
-```
+	```
+
  - `kubectl port-forward --namespace=test deployment/mlflow-test 5000:5000`
 
 7. Cleanup:
@@ -122,7 +123,7 @@ b) use public repo and existing image i.e. "danielvdende/docker-mlflow"
  - `helm repo index docs --url https://pilillo.github.com/helm-charts`
   ```$ ls docs/
  index.html  index.yaml  mlflow-0.1.0.tgz
-```
+ ```
  An index.yaml file was created, so we can now use the docs folder as an Helm repository after committing those files to the repo.
 
 9. Use Github as Helm Repository
