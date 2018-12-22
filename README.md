@@ -3,7 +3,7 @@
 **1. Preparation of Docker Image:**  
   a) push to repo (accessible from the K8s cluster) - [Example 
 1](https://stackoverflow.com/questions/40600419/why-am-i-getting-an-errimagepull-error-in-this-kubernetes-deployment), [Example 
-2](https://docs.bitnami.com/kubernetes/how-to/deploy-go-application-kubernetes-helm/)  
+2](https://docs.bitnami.com/kubernetes/how-to/deploy-go-application-kubernetes-helm/), [Example 3](https://www.influxdata.com/blog/packaged-kubernetes-deployments-writing-helm-chart/)  
   b) use public repo and existing image i.e. "danielvdende/docker-mlflow"
 
 **2. Cluster initialization:**
@@ -158,3 +158,4 @@
 	```
 
 Yeeeey, we can now install/delete MLflow directly from helm!
+
