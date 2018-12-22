@@ -36,7 +36,8 @@ b) use public repo and existing image i.e. "danielvdende/docker-mlflow"
  - `mv mlflow-0.1.0.tgz docs`
  - `helm repo index docs --url https://pilillo.github.com/helm-charts`
   ```$ ls docs/
- index.html  index.yaml  mlflow-0.1.0.tgz```
+ index.html  index.yaml  mlflow-0.1.0.tgz
+```
 
 9. Use Github as Helm Repository
  - `helm repo add helm-charts https://pilillo.github.com/helm-charts`
