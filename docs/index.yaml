@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  mlflow:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-22T19:46:45.718466337+01:00
+    description: A Helm chart for MLflow
+    digest: 69255b1923e14d767c6d29480d6b6726d0f6b02aa0afdad5391c6a0ed42386dd
+    name: mlflow
+    urls:
+    - https://pilillo.github.com/helm-charts/mlflow-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-12-22T19:46:45.718172378+01:00
