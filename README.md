@@ -1,10 +1,10 @@
 # A Repo of Helm Charts for various Docker Images
 
 **1. Preparation of Docker Image:**  
- a) push to repo (accessible from the K8s cluster) - [Example 
+  a) push to repo (accessible from the K8s cluster) - [Example 
 1](https://stackoverflow.com/questions/40600419/why-am-i-getting-an-errimagepull-error-in-this-kubernetes-deployment), [Example 
 2](https://docs.bitnami.com/kubernetes/how-to/deploy-go-application-kubernetes-helm/)  
-b) use public repo and existing image i.e. "danielvdende/docker-mlflow"
+  b) use public repo and existing image i.e. "danielvdende/docker-mlflow"
 
 **2. Cluster initialization:**
  - `kubectl create namespace test`
