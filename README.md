@@ -4,7 +4,7 @@
   a) push to repo (accessible from the K8s cluster) - [Example 
 1](https://stackoverflow.com/questions/40600419/why-am-i-getting-an-errimagepull-error-in-this-kubernetes-deployment), [Example 
 2](https://docs.bitnami.com/kubernetes/how-to/deploy-go-application-kubernetes-helm/), [Example 3](https://www.influxdata.com/blog/packaged-kubernetes-deployments-writing-helm-chart/)  
-    For minikube, It is also possible to build the Docker image locally available to the host and access it from the minikube K8s cluster (`eval $(minikube docker-env)`).
+    For minikube, It is also possible to build the Docker image locally available to the host and access it from the minikube K8s cluster (`eval $(minikube docker-env)`).  
   b) use public repo and existing image e.g. "danielvdende/docker-mlflow"
 
 **2. Cluster initialization:**
